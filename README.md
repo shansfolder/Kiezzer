@@ -12,7 +12,7 @@ Especially in Harmburg (and maybe in Berlin as well as other northern Germany ar
 
 Our app is especially designed for those "Kiezzers". We will provide real-time data for nearby pubs------including girls percentage, average age, temperature, humidity------at the specifc moment whenever user searchs. 
 
-Its cool and useful as well! Check it out!
+Its cool and useful at the same time! Check it out!
 
 
 Folder Struture:
