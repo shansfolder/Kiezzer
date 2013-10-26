@@ -11,6 +11,8 @@
 		A21953271819D5870021EF1E /* background3.png in Resources */ = {isa = PBXBuildFile; fileRef = A21953261819D5870021EF1E /* background3.png */; };
 		A219532A181A796D0021EF1E /* ClubGeneralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2195329181A796D0021EF1E /* ClubGeneralViewController.m */; };
 		A245B70318183D7700FE6DE0 /* ClubCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A245B70218183D7700FE6DE0 /* ClubCell.m */; };
+		A24C812A181A983900D61760 /* ClubCurrentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A24C8129181A983900D61760 /* ClubCurrentViewController.m */; };
+		A266E932181C163700AAE238 /* SortByTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A266E931181C163700AAE238 /* SortByTableViewController.m */; };
 		A28032A918183426004AB5C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A28032A818183426004AB5C9 /* Foundation.framework */; };
 		A28032AB18183426004AB5C9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A28032AA18183426004AB5C9 /* CoreGraphics.framework */; };
 		A28032AD18183426004AB5C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A28032AC18183426004AB5C9 /* UIKit.framework */; };
@@ -62,6 +64,10 @@
 		A2195329181A796D0021EF1E /* ClubGeneralViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClubGeneralViewController.m; sourceTree = "<group>"; };
 		A245B70118183D7700FE6DE0 /* ClubCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClubCell.h; sourceTree = "<group>"; };
 		A245B70218183D7700FE6DE0 /* ClubCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClubCell.m; sourceTree = "<group>"; };
+		A24C8128181A983900D61760 /* ClubCurrentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClubCurrentViewController.h; sourceTree = "<group>"; };
+		A24C8129181A983900D61760 /* ClubCurrentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClubCurrentViewController.m; sourceTree = "<group>"; };
+		A266E930181C163700AAE238 /* SortByTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortByTableViewController.h; sourceTree = "<group>"; };
+		A266E931181C163700AAE238 /* SortByTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SortByTableViewController.m; sourceTree = "<group>"; };
 		A28032A518183426004AB5C9 /* Kiezzer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kiezzer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A28032A818183426004AB5C9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A28032AA18183426004AB5C9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -215,6 +221,10 @@
 				A29B14741818566D002684AC /* UsersViewController.m */,
 				A2195328181A796D0021EF1E /* ClubGeneralViewController.h */,
 				A2195329181A796D0021EF1E /* ClubGeneralViewController.m */,
+				A24C8128181A983900D61760 /* ClubCurrentViewController.h */,
+				A24C8129181A983900D61760 /* ClubCurrentViewController.m */,
+				A266E930181C163700AAE238 /* SortByTableViewController.h */,
+				A266E931181C163700AAE238 /* SortByTableViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -386,9 +396,11 @@
 				A219532A181A796D0021EF1E /* ClubGeneralViewController.m in Sources */,
 				A28032FD181839C5004AB5C9 /* Club.m in Sources */,
 				A28032C218183426004AB5C9 /* ViewController.m in Sources */,
+				A24C812A181A983900D61760 /* ClubCurrentViewController.m in Sources */,
 				A28032FA18183759004AB5C9 /* ClubTableViewController.m in Sources */,
 				A245B70318183D7700FE6DE0 /* ClubCell.m in Sources */,
 				A28032B918183426004AB5C9 /* AppDelegate.m in Sources */,
+				A266E932181C163700AAE238 /* SortByTableViewController.m in Sources */,
 				A28032B518183426004AB5C9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
